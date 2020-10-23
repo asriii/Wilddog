@@ -7,6 +7,30 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
 </p>
 
+
+## การติดตั้ง Wilddog Project
+- composer create-project --prefer-dist laravel/laravel:^7.0 blog
+
+## ติดตั้ง Auth UI
+- composer require laravel/ui:^2.4
+- php artisan ui bootstrap
+- php artisan ui bootstrap --auth
+- npm install
+- npm run dev
+
+## Feature ที่ทำ
+- ทำระบบ Authenticate โดยใช้ EMAIL เป็น Username
+- ทำระบบ CRUD สำหรับเก็บ้อมูลลูกค้าโดยมีข้อมูลงนี้
+    ชื่อ , นามสกุล , เบอรโทรศัพท์ , อีเมล , ที่อู่ย 
+- ทำระบบ Reset password โดยสามารถ Reactivate user ผ่าน Email 
+- ทำระบบ Role Management โดยในระบบมีการแบ่ง Role Permission
+- เปลี่ยนการส่งข้อมูล Form เปนแบบ Ajax Submit
+- ทำ Validation ข้อมูล
+
+## เข้าสู้ระบบ
+- E-mail : admin@admin.com
+- Password : passwordadmin
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
