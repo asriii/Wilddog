@@ -29,7 +29,7 @@
 ## Feature ที่ทำ
 - ทำระบบ Authenticate โดยใช้ EMAIL เป็น Username
 - ทำระบบ CRUD สำหรับเก็บ้อมูลลูกค้าโดยมีข้อมูลงนี้
-    ชื่อ , นามสกุล , เบอรโทรศัพท์ , อีเมล , ที่อู่ย 
+    ชื่อ , นามสกุล , เบอรโทรศัพท์ , อีเมล , ที่อยู่
 - ทำระบบ Reset password โดยสามารถ Reactivate user ผ่าน Email 
 - ทำระบบ Role Management โดยในระบบมีการแบ่ง Role Permission
 - เปลี่ยนการส่งข้อมูล Form เปนแบบ Ajax Submit
