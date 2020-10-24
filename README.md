@@ -22,6 +22,10 @@
     DB_DATABASE=wilddog_db
     DB_USERNAME=root
     DB_PASSWORD=
+ 
+## Admin Page
+- หลังจาก Rigister แล้ว ให้ไปกำหนดใน phpmyadmin table users  -> โดยกำหนด type เป็น 1
+
 ## Feature ที่ทำ
 - ทำระบบ Authenticate โดยใช้ EMAIL เป็น Username
 - ทำระบบ CRUD สำหรับเก็บ้อมูลลูกค้าโดยมีข้อมูลงนี้
@@ -30,9 +34,6 @@
 - ทำระบบ Role Management โดยในระบบมีการแบ่ง Role Permission
 - เปลี่ยนการส่งข้อมูล Form เปนแบบ Ajax Submit
 - ทำ Validation ข้อมูล
-
-## Admin Page
-- หลังจาก Rigister แล้ว ให้ไปกำหนดใน phpmyadmin table users  -> โดยกำหนด type เป็น 1
 
 ## About Laravel
 
