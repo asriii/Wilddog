@@ -17,7 +17,11 @@
 - php artisan ui bootstrap --auth
 - npm install
 - npm run dev
-
+## ฐานข้อมูล
+    DB_CONNECTION=mysql
+    DB_DATABASE=wilddog_db
+    DB_USERNAME=root
+    DB_PASSWORD=
 ## Feature ที่ทำ
 - ทำระบบ Authenticate โดยใช้ EMAIL เป็น Username
 - ทำระบบ CRUD สำหรับเก็บ้อมูลลูกค้าโดยมีข้อมูลงนี้
