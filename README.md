@@ -27,9 +27,8 @@
 - เปลี่ยนการส่งข้อมูล Form เปนแบบ Ajax Submit
 - ทำ Validation ข้อมูล
 
-## เข้าสู้ระบบ
-- E-mail : admin@admin.com
-- Password : passwordadmin
+## Admin Page
+- หลังจาก Rigister แล้ว ให้ไปกำหนดใน phpmyadmin table users  -> โดยกำหนด type เป็น 1
 
 ## About Laravel
 
